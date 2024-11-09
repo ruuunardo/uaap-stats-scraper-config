@@ -7,3 +7,9 @@ eureka:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "uaapstatsdata"
+    description: "UAAP Data Scraper data"
+    version: "1.0.0"
