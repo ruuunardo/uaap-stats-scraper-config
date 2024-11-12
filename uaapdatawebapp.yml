@@ -15,7 +15,7 @@ spring:
         registration:
           google:
             client-id: 1071763098670-jpom8tv6etobg9jinb125n8hikh835sp.apps.googleusercontent.com
-            client-secret: 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
+            client-secret: "{cipher}0bc1d760459b9c0dbc6775c7d00b5e61e10ca49cb5a8fa0a874eb70b46a68a258e58685202f07a241c78acfe3e972eeeee2e65df81d2ed6d79dd1402d54d63aa"
             scope: profile, email
             redirect-uri: "{baseUrl}/login/oauth2/code/google"
             authorization-grant-type: authorization_code
@@ -23,7 +23,7 @@ spring:
             provider: google
           github:
             client-id: Ov23li2gI7xs9ybI2oOt
-            client-secret: 8a88fbe3df7f364fe0de52d600087e26e2e6bd93
+            client-secret: "{cipher}5cdbfddff662d48df91124d3125f95eb261f4eb2ada7f138e2d666f17d395b8d93b5bf1ac3b5f17385ed0a33b467a70840084eb7f8543357752bb28b4a77f982"
             scope: read:user
             authorization-grant-type: authorization_code
             redirect-uri: "{baseUrl}/login/oauth2/code/github"
