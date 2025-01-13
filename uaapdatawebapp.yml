@@ -1,4 +1,4 @@
-EUREKA-SERVICE REGISTRY
+# EUREKA-SERVICE REGISTRY
 eureka:
   instance:
     preferIpAddress: true
